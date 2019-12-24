@@ -11,10 +11,10 @@ class IpsumGenerator {
     this.quotes = this.get('getQuotes')
     this.phrases = this.get('getPhrases')
 
-    this.minNumberOfPhrasesInParagraph = 7
-    this.maxNumberOfPhrasesInParagraph = 25
-    this.minNumberOfQuotesInParagraph = 1
-    this.maxNumberOfQuotesInParagraph = 3
+    this.minNumberOfPhrasesInParagraph = 5
+    this.maxNumberOfPhrasesInParagraph = 15
+    this.minNumberOfQuotesInParagraph = 2
+    this.maxNumberOfQuotesInParagraph = 6
   }
 
   get(getterFunction) {
