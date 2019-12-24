@@ -1,6 +1,7 @@
 :root {
   --primary-colour: #f6e21c;
   --secondary-colour: #e90000;
+  --secondary-colour-hover: #c00000;
 }
 
 body {
@@ -9,10 +10,24 @@ body {
   text-align: center;
 }
 
-header {
+header .innerHeader {
   background-color: var(--primary-colour);
-  padding: 50px 50px 250px 50px;
+  padding: 50px;
 }
+
+header:after {
+  background-color: var(--primary-colour);
+  content: " ";
+  display: block;
+  position: relative;
+  top: -70px;
+  left: 0px;
+  width: 100%;
+  height: 200px;
+  transform: skew(0, -7deg);
+  z-index: -1;
+}
+
 
 .logoWrapper {
   transform: rotate(-5deg);
@@ -72,11 +87,54 @@ p.site-description {
 }
 
 .generatedParagraphs {
-  background-color: #fff;
+  margin: 20px;
+  margin-top: -200px;
+}
+
+.generatedParagraphs > div {
   border: 3px solid #000;
+  background-color: #fff;
   max-width: 760px;
   margin: auto;
-  position: relative;
-  top: -200px;
   padding: 10px 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.generatedParagraphs > div.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+button {
+  font-size: 1rem;
+  background-color: var(--secondary-colour);
+  border-radius: 0 10px 10px 0;
+  padding: 10px 15px;
+  margin: 10px 10px 10px 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+button:hover {
+  background-color: var(--secondary-colour-hover);
+}
+
+input {
+  font-size: 1rem;
+  padding: 10px;
+  width: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logoWrapper { max-width: 220px; }
+  header { padding: 0 0 100px 0; }
+  header h1 .line1 { font-size: 1.6rem; }
+  header h1 .line2 { font-size: 1.8rem; line-height: 0.5; height: 25px; }
+  header h1 .line3 { font-size: 2rem; }
+  header h1 .line2 .star { font-size: 1rem; margin: 0 3px; }
+  p.site-description { font-size: 1.2rem; }
+  .generatedParagraphs { margin-top: -300px; }
 }

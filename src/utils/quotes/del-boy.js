@@ -41,7 +41,7 @@ const quotes = [
   `Pork scratchings! Sounds like a pig with fleas!`,
   `You don't want to see what it's like in the early hours, Grandad. It's like the end of the world. It's full of drug addicts, glue sniffers, winos. Do you know what, if a nightingale sang now in Berkeley Square, someone would eat it.`,
   `He's had everything from Galloping Lurgy to Saturday Night Fever!`,
-  `Yeah, I used to miss my dad. Until I learned to punch straight...`,
+  `Yeah, I used to miss my dad. Until I learned to punch straight.`,
   `Your mother-in-law would have been your aunt, your wife would have been your second cousin - God knows what that would have made Grandad - the fairy godmother I should think.`,
   `He might have hit his head and got percussion.`
 ]
