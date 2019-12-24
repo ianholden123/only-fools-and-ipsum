@@ -1,0 +1,82 @@
+:root {
+  --primary-colour: #f6e21c;
+  --secondary-colour: #e90000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: var(--primary-colour);
+  padding: 50px 50px 250px 50px;
+}
+
+.logoWrapper {
+  transform: rotate(-5deg);
+  background-color: var(--secondary-colour);
+  border: 10px solid var(--primary-colour);
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+  max-width: 350px;
+  margin: auto;
+}
+
+header h1 {
+  font-family: serif;
+  color: #fff;
+  margin: 0;
+  font-size: 3rem;
+}
+header h1 .line1 {
+  padding: 10px;
+  text-transform: uppercase;
+  display: block;
+  border-top: 6px solid #000;
+  border-left: 6px solid #000;
+  border-right: 6px solid #000;
+  border-bottom: 2px solid #000;
+}
+header h1 .line2 {
+  font-size: 2.8rem;
+  text-transform: lowercase;
+  font-style: italic;
+  display: block;
+  background-color: #000;
+  border-top: 3px solid var(--primary-colour);
+  border-bottom: 3px solid var(--primary-colour);
+  height:35px;
+  line-height: 0.45
+}
+header h1 .line2 .star {
+  font-size: 1.5rem;
+  font-style: normal;
+  margin: 0 5px;
+}
+header h1 .line3 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  display: block;
+  border-top: 2px solid #000;
+  border-left: 6px solid #000;
+  border-right: 6px solid #000;
+  border-bottom: 6px solid #000;
+}
+
+p.site-description {
+  margin: 50px 0;
+  font-size: 1.4rem;
+}
+
+.generatedParagraphs {
+  background-color: #fff;
+  border: 3px solid #000;
+  max-width: 760px;
+  margin: auto;
+  position: relative;
+  top: -200px;
+  padding: 10px 20px;
+}
