@@ -9,7 +9,7 @@ class Trigger extends QuoteList {
 }
 
 const phrases = [
-  
+  `Alright Dave?`
 ]
 
 const quotes = [

@@ -35,7 +35,15 @@ const quotes = [
   `She used to say, 'It's better to know you've lost than not to know you've won.' Dear old Mum... she used to say some bloody stupid things.`,
   `Not only have you managed to sink every battleship and aircraft carrier that you've ever sailed on, but now you've gone and knackered a gravy boat.`,
   `You know this car's a GTI. If you rearrange the number plates then you got yourself a personalised number plate.`,
-  `One of my most favouritist meals is Duck à l'Orange, but I don't know how to say that in French.`
+  `One of my most favouritist meals is Duck à l'Orange, but I don't know how to say that in French.`,
+  `It's been so long that Rodney had a bit on the side, he didn't know they'd moved it.`,
+  `As Macbeth said to Hamlet in A Midsummer Night's Dream: "We've been done up like a couple of kippers".`,
+  `Pork scratchings! Sounds like a pig with fleas!`,
+  `You don't want to see what it's like in the early hours, Grandad. It's like the end of the world. It's full of drug addicts, glue sniffers, winos. Do you know what, if a nightingale sang now in Berkeley Square, someone would eat it.`,
+  `He's had everything from Galloping Lurgy to Saturday Night Fever!`,
+  `Yeah, I used to miss my dad. Until I learned to punch straight...`,
+  `Your mother-in-law would have been your aunt, your wife would have been your second cousin - God knows what that would have made Grandad - the fairy godmother I should think.`,
+  `He might have hit his head and got percussion.`
 ]
 
 export default DelBoy
