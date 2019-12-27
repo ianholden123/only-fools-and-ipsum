@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import './App.css';
 import IpsumGenerator from './utils/IpsumGenerator'
 
@@ -39,19 +40,30 @@ class App extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>Only Fools and Ipsum | Custom Lorem Ipsum Generator</title>
+          <meta name="description" content="A lorem ipsum generator for fans of the British TV sitcom Only Fools and Horses" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+          <link rel="manifest" href="/site.webmanifest" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+          <meta name="msapplication-TileColor" content="#ffc40d" />
+          <meta name="theme-color" content="#ffffff"></meta>
+        </Helmet>
         <header>
           <div className='innerHeader'>
             <div className='logoWrapper'>
               <h1>
                 <span className='line1'>Only Fools</span>
                 <span className='line2'>
-                  <span className='star'>&#9733;</span>
-                  <span className='star'>&#9733;</span>
-                  <span className='star'>&#9733;</span>
+                  <span role="presentation" aria-hidden='true' className='star'>&#9733;</span>
+                  <span role="presentation" aria-hidden='true' className='star'>&#9733;</span>
+                  <span role="presentation" aria-hidden='true' className='star'>&#9733;</span>
                   <span className='and'> and </span>
-                  <span className='star'>&#9733;</span>
-                  <span className='star'>&#9733;</span>
-                  <span className='star'>&#9733;</span>
+                  <span role="presentation" aria-hidden='true' className='star'>&#9733;</span>
+                  <span role="presentation" aria-hidden='true' className='star'>&#9733;</span>
+                  <span role="presentation" aria-hidden='true' className='star'>&#9733;</span>
                 </span>
                 <span className='line3'>Ipsum</span>
               </h1>
@@ -67,6 +79,10 @@ class App extends React.Component {
         <div className={`generatedParagraphs`}>
           <div className={this.state.generatedContent ? ' visible' : ''} dangerouslySetInnerHTML={{__html: this.state.generatedContent}} />
         </div>
+
+        <footer>
+          <p><strong>Only Fools and Ipsum - Ipsum Generator</strong> was created by <a href='https://www.ianholden.co.uk'>Ian Holden</a></p>
+        </footer>
       </>
     );
   }

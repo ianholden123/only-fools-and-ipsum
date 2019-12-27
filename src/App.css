@@ -4,12 +4,6 @@
   --secondary-colour-hover: #c00000;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
 header .innerHeader {
   background-color: var(--primary-colour);
   padding: 50px;
