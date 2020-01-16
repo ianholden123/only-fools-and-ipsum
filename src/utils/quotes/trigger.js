@@ -2,7 +2,7 @@ import QuoteList from './index'
 
 class Trigger extends QuoteList {
   constructor() {
-    super('Rodney')
+    super('Trigger')
     this.setPhrases(phrases)
     this.setQuotes(quotes)
   }
