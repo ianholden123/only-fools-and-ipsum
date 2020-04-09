@@ -1,5 +1,5 @@
 # Only Fools and Ipsum
-A lorem ipsum generator for fans of the British TV sitcom Only Fools and Horses.
+A lorem ipsum generator for fans of the British TV sitcom Only Fools and Horses. This project can be viewed at https://www.onlyfoolsandipsum.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -24,3 +24,7 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Screenshots
+
+![Only Fools and Ipsum - Ipsum Generator interface](./screenshot.png "Only Fools and Ipsum - Ipsum Generator interface")
