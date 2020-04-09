@@ -2,7 +2,7 @@ import QuoteList from './index'
 
 class UncleAlbert extends QuoteList {
   constructor() {
-    super('Rodney')
+    super('Uncle Albert')
     this.setPhrases(phrases)
     this.setQuotes(quotes)
   }
