@@ -164,11 +164,9 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .logoWrapper { max-width: 220px; }
-  header { padding: 0 0 100px 0; }
   header h1 .line1 { font-size: 1.6rem; }
   header h1 .line2 { font-size: 1.8rem; line-height: 0.5; height: 25px; }
   header h1 .line3 { font-size: 2rem; }
   header h1 .line2 .star { font-size: 1rem; margin: 0 3px; }
   p.site-description { font-size: 1.2rem; }
-  .generatedParagraphs { margin-top: -300px; }
 }
