@@ -4,6 +4,7 @@ import Grandad from './quotes/grandad'
 import UncleAlbert from './quotes/uncle-albert'
 import Trigger from './quotes/trigger'
 import Boycie from './quotes/boycie'
+import Raquel from './quotes/raquel'
 
 class IpsumGenerator {
   constructor(selectedCharacters = null) {
@@ -12,9 +13,9 @@ class IpsumGenerator {
     this.phrases = this.get('getPhrases')
 
     this.minNumberOfPhrasesInParagraph = 5
-    this.maxNumberOfPhrasesInParagraph = 15
+    this.maxNumberOfPhrasesInParagraph = 10
     this.minNumberOfQuotesInParagraph = 2
-    this.maxNumberOfQuotesInParagraph = 6
+    this.maxNumberOfQuotesInParagraph = 5
   }
 
   get(getterFunction) {
@@ -33,6 +34,8 @@ class IpsumGenerator {
           return output = [...output, ...new Boycie()[getterFunction]()]
         case 'Trigger':
           return output = [...output, ...new Trigger()[getterFunction]()]
+        case 'Raquel':
+          return output = [...output, ...new Raquel()[getterFunction]()]
         default:
           return
       }
@@ -66,6 +69,11 @@ class IpsumGenerator {
 
   shuffleArray(array) {
     return array.sort(() => Math.random() - 0.5);
+  }
+
+  removeHtmlAttributesFromString(string) {
+    string = string.replace(/<\/p>/g, '\r\n') // Replace closing <p> tags with new-line/carriage return characters
+    return string.replace(/(<([^>]+)>)/ig, ''); // Remove all other HTML attributes from string
   }
 }
 

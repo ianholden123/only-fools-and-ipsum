@@ -26,6 +26,10 @@ const phrases = [
   `Bonnet de douche.`,
   `Bonjour.`,
   `Cushti.`,
+  `Mum said to me on her deathbed...`,
+  `You wally!`,
+  `Gordon Bennett!`,
+  `Stone me!`
 ]
 
 const quotes = [
@@ -43,7 +47,17 @@ const quotes = [
   `He's had everything from Galloping Lurgy to Saturday Night Fever!`,
   `Yeah, I used to miss my dad. Until I learned to punch straight.`,
   `Your mother-in-law would have been your aunt, your wife would have been your second cousin - God knows what that would have made Grandad - the fairy godmother I should think.`,
-  `He might have hit his head and got percussion.`
+  `He might have hit his head and got percussion.`,
+  `Why do women always want to know what time you got in? They say to you "What time did you get in last night?" and you go about "Quarter past twelve." and they go "No it weren't, it was twenty to two." You think well why bloody ask?`,
+  `Fabrique belgique.`,
+  `No chance of that happening with Rodney, is there? World War III! This plonker can't even get Channel Three!`,
+  `I think we're on a winner here Trig, play it nice and cool son, nice and cool. You know what I mean? (falls through bar) Drink up Trig, we're leaving.`,
+  `A couple of years ago, some guru reckoned the world would end within a month, and Danny Driscoll bet a grand that it would! And he's the brains of the outfit!`,
+  `Now don't you start getting saucy with me, Rodney.`,
+  `Oi, Rodney! Take your leg out of that dog's mouth, will you?`,
+  `We're in the middle of the North Sea ain't we? It's got more currents than a hot-cross bun.`,
+  `I don't know what the younger generation is coming to. They can't even swear without effing and blinding.`,
+  `The only hole he hasn't fallen down is the black one in Calcutta.`
 ]
 
 export default DelBoy
