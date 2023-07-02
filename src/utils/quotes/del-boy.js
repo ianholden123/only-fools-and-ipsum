@@ -38,7 +38,7 @@ const quotes = [
   `You've always been the same, even at school. Nothing but books, learning, education - that's why you're no good at snooker.`,
   `She used to say, 'It's better to know you've lost than not to know you've won.' Dear old Mum... she used to say some bloody stupid things.`,
   `Not only have you managed to sink every battleship and aircraft carrier that you've ever sailed on, but now you've gone and knackered a gravy boat.`,
-  `You know this car's a GTI. If you rearrange the number plates then you got yourself a personalised number plate.`,
+  `You know this car's a GTI. If you rearrange the letters then you got yourself a personalised number plate.`,
   `One of my most favouritist meals is Duck à l'Orange, but I don't know how to say that in French.`,
   `It's been so long that Rodney had a bit on the side, he didn't know they'd moved it.`,
   `As Macbeth said to Hamlet in A Midsummer Night's Dream: "We've been done up like a couple of kippers".`,
